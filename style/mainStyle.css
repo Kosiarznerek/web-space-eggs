@@ -1,0 +1,28 @@
+﻿@font-face {
+    font-family: 'Atari';
+    src: url('PressStart2P.ttf') format('truetype');
+}
+
+#gameContainter {
+    text-align: center;
+    font-family: Atari;
+}
+
+#playerStats {
+    width: 632px;
+    margin: 0 auto;
+}
+
+#playerStats #currScore {
+    width: 50%;
+    float: left;
+    color: #d1a1ff;
+    background-color: black;
+}
+
+#playerStats #hiScore {
+    width: 50%;
+    float: right;
+    color: #d1a1ff;
+    background-color: black;
+}
